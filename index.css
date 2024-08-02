@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+video{
+    width: 100%;
+}
+h1{
+    background-color:antiquewhite;
+    text-align: center;
+    color: chartreuse;
+}
+h2{
+    text-align: center;
+    color: chartreuse;
+    margin-top: 5px;
+}
+h3{
+    text-align: center;
+    color: chartreuse;
+    margin-top: 5px;
+}
+img{
+    width:400px;
+    height:300px;
+    margin: 2rem 4rem;
+    
+}
+p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+a{    
+    color:blue;
+    text-decoration: none;
+    font-size:20px;
+}
+marquee{
+    color: blue;
+}
+.container-1 img{
+    width:300px;
+    height:300px;
+    margin: 2rem 2rem;   
+}
+.container-2 img{
+    width:300px;
+    height:300px;
+    margin: 2rem 3rem;   
+}
+input{
+    margin: 5%;
+    width: 20rem;
+    height: 2rem;
+    border-radius:10px;
+    outline: 0;
+    border-color: none;
+}
+form input::placeholder{
+    font-size:1rem;
+    padding-left:2rem;
+}
+.container{
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem 40rem;
+}
+form button{
+    width:10rem;
+    height:2rem;
+    border-radius:15px;
+    color: blue;
+    border-color: blue;
+    margin: 2rem 6rem;
+}
